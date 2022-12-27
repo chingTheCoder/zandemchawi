@@ -1,0 +1,33 @@
+nav {
+  background-color:  red;
+  position: fixed;
+  height: 50px;
+  left: 0;
+  right : 0;
+  bottom: 0;
+}
+
+nav {
+  background-color: white;
+}
+ul {
+  margin:  0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color : #333;
+}
+
+ul li{
+  display: block;
+  width: 50%;
+  margin: 0;
+  text-align: center;
+  height: 50px;
+  padding-top: 10px;
+}

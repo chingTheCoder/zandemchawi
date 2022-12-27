@@ -1,0 +1,94 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+
+body {
+  background-color: black;
+}
+
+form input {
+  height: 50px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+form button {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border : 0;
+  background-color: green;
+  color: whitesmoke;
+}
+
+.active {
+  color : green;
+  font-weight: 900;
+}
+
+.loading {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1000;
+  background-color: black;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.error {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1000;
+  background-color: black;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.card {
+  color: whitesmoke;
+  border: 1px solid green;
+  padding: 10px;
+  margin: 10px;
+}
+
+.notips {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color : whitesmoke;
+}
+
+
+.state  button {
+  border: none;
+  padding: 5px;
+  color: whitesmoke;
+  width: 100px;
+}
+
+.state button:nth-child(1) {
+  background-color: green;
+}
+
+
+.state button:nth-child(2) {
+  background-color: tomato;
+  margin-left: 5px;
+}
